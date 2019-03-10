@@ -1,13 +1,14 @@
 <?php
 	session_start();//se mantiene el contenido tb cuando renfrescamos la pagina:
 	//session_destroy();
-	//session_destroy(); la prima volta che entro ottengo un errore undefind index, si riferisce all indec dell'array personas, perche ancora non esiste l'array, la prima volta che entriamo, creiamo allora un array persona vacio.
+	//session_destroy(); la prima volta che entro ottengo un errore undefind index referente all'indice dell'array personas, perche ancora non esiste l'array, quindi creiamo un array persona vacio.
 	//si no existe la variable de sesion, la creamos vacia
 	if(!isset($_SESSION['personas'])){
 		$_SESSION['personas']=array();
 	}
 
-	//(2) mostrar la tabla con las personas guardadas en a variable de sesion (chiamiamo una funzione che se encargue de mosrar esta tabla), el valor que nos devuelve va guardado en una variable
+	//(2) FUNCION PARA MOSTRAR LA TABLA/ACTUALIZAR LA TABLA:
+//mostrar la tabla con las personas guardadas en la variable de sesion (chiamiamo una funzione che se encargue de mostrar esta tabla), el valor que nos devuelve va guardado en una variable
 	$personas = informarPersonas();
 
 	
@@ -15,6 +16,7 @@
 	//inicializar variables utilizadas en html (nif, nombre direccion si fa l echo nell html nel value per non perdere i dati poco a poco che vado riempendo il formulario):
 	$mensaje= $nif=$nombre=$direccion='';
 
+//BOTON ALTA
 	//recuperar los datos del formulario cuando damos al boton ALTA (detectar cuando se pulsa boton de ALTA)
 	if(isset($_POST['alta'])){				//alta è il name del boton subimit
 		//recuperar datos:
@@ -47,14 +49,14 @@
 	}
 
 //BOTON DE BAJA de toda la tabla
-//detectar cuando se pulas baja personas (name="baja)
+//detectar cuando se pulsa baja personas (name="baja)
 if(isset($_POST['baja'])){
 	//borrar el array
 	unset($_SESSION['personas']);//me cargo todo el array
 	//borrar la tabla:
 	$personas='';//me cargo toda la tabla;
 }
-
+//BOTON BAJA PERSONA de toda la tabla
 //detectar cuando se pulsa baja de persona por nif:
 	if(isset($_POST['bajapersona'])){
 		//recuperar el nif de la persona
@@ -67,7 +69,7 @@ if(isset($_POST['baja'])){
 		//mensaje de baja
 		$mensaje= 'usuario eliminado';
 	}
-
+//BOTON MODIFICAR
 //(3) detectar cuando se envia el formulario de modificar, con name modificar
 	if(isset($_POST['modificar'])){
 		//recuperar los datos
@@ -87,6 +89,7 @@ if(isset($_POST['baja'])){
 
 	}
 
+//FUNZIONE PER AGGIORNARE E COSTRUIRE LA TABLA
 function informarPersonas(){
 	$tabla='';
 
@@ -101,14 +104,6 @@ function informarPersonas(){
 	}
 	return $tabla;
 }
-
-
-
-
-
-
-
-
 ?>
 
 
@@ -151,11 +146,6 @@ function informarPersonas(){
 			//submit del formulario con id form_modificar
 			$('#form_modificar')[0].submit()//indica il primer formulario con id form_modificar
 		}
-
-
-
-
-
 	</script>
 
 </head>
