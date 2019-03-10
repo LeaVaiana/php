@@ -33,4 +33,4 @@ if (isset($_POST['enviar'])){
 		<input type="submit" name="enviar" />
 	</form><br>
 </body>
-</html>
+</html> 
