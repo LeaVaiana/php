@@ -13,5 +13,4 @@ for ($n=1; $n<=10; $n++){
     //imprimir por pantalla la linea separadora
     echo "---------------<br>";
 }
-
 ?>
