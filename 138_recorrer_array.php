@@ -8,5 +8,4 @@ foreach ($dias as $dia) {//no es necesario definir fuera del foreach la variable
 
 //para saber cuanto elementos tiene un array
 echo count($dias);//7
-
 ?>
