@@ -4,4 +4,4 @@ $datosPersona = array('nombre' => 'Luis Rodriguez', 'nif' => '44444444P', 'direc
 print_r($datosPersona);//veo todo el array
 echo '<br>';
 echo 'nombre y apellidos: '.$datosPersona['nombre'];//vedo un valore che scelgo io
-?>
+?> 
