@@ -1,0 +1,1 @@
+<nav><a href="pagina_1.php"><?=$nav_1;?></a><a href="pagina_2.php"><?=$nav_2;?></a></nav>	

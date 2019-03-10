@@ -1,0 +1,61 @@
+	body {
+		background-color: #CECECC;
+		font-family: arial;
+		font-size: 1.2em;
+	}
+	.contenedor {
+		background-color: #CECECC;
+		max-width: 1600px;
+		margin: auto;
+	}
+
+	header {
+		background-color: darkblue;
+		overflow: hidden;
+		padding: 5px;
+	}
+
+	header img {
+		float: left;
+		height: 40px;
+		margin-right: 10px;
+	}
+
+	header h4 {
+		color: white;
+		margin: 0px;
+		line-height: 40px;
+	}
+
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+	}
+
+	input {
+		height: 25px;
+	}
+
+	input[name='nif'] {
+		margin-right: 30px;
+		width: 100px;
+	}
+
+	input[name='titular'],input[name='nombre'], input[name='descripcion'] {
+		width: 350px;
+	}
+
+	label {
+		width: 350px;
+		display: inline-block;
+	}
+
+	input[name='entidad'], input[name='oficina'] {
+		width: 50px;
+	}
+
+	input[name='digito']{
+		width: 25px;
+	}
