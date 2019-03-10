@@ -52,7 +52,7 @@ if (isset($_POST['botonEnviar'])){
         if(mostrar!=''){
             alert(mostrar)
         }
-    </script>
+    </script> 
 </head>
 <body>
 	<form method="post" action="#"> 

@@ -54,9 +54,4 @@ echo '<br>';
 $lista = implode("/",$array);
 echo $lista;
 echo '<br>';
-
-
-
-
-
 ?>

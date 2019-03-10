@@ -1,10 +1,8 @@
 <?php
     
     session_start();
-
     $a=3;
     $b=5;
-
 
    $_SESSION['sesion'] = compact('a','b');
 

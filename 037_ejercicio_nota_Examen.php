@@ -55,5 +55,5 @@ if (isset($_POST['botonEnviar'])){
 		<input type="number" name="nota">
 	 	<input type="submit" name="botonEnviar" value="enviar"> 
 	</form>
-</body>
+</body> 
 </html>

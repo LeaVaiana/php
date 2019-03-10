@@ -10,5 +10,5 @@ echo"<br>";
 var_dump($array);//la differenza tra print e var-dump è che il secondo ci da piú dati
 
 
-?>
+?> 
 

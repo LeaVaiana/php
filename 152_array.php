@@ -27,7 +27,4 @@ $lista = implode(',',$arrayNumeros);
 //imprimir la lista;
 echo "<br>";
 echo $lista;
-
-
-
 ?>

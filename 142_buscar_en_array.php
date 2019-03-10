@@ -26,7 +26,4 @@ if($clave!==null){
 }
 print_r($dias);
 
-
-
-
 ?>

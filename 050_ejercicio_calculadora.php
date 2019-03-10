@@ -63,6 +63,6 @@ if (isset($_POST['enviar'])){
 
 			<input type="text" value='<?=$resultado?>'>
 		</form>
-	</div>
+	</div> 
 </body>
 </html>

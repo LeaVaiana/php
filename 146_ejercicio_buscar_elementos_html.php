@@ -2,7 +2,6 @@
  //inicializar variables que se utilicen en la parte html
  $pais="";
 
-
  //declarar el array de paises/capitales
  $paises = array('Francia' => 'París', 'Ecuador' => 'Quito', 'Gran Bretaña' => 'Londres', 'Alemania' => 'Berlin', 'Argentina' => 'Buenos Aires');
 
@@ -14,15 +13,10 @@ if(isset($_GET["capital"])){//name del submit
 	$pais = array_search($capital, $paises);
 		//echo $pais;
 
-
 	//mostrar el pais en el formulario: aggiungo il php nel value del formulario!!!
 
 }
-
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">

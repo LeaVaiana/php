@@ -25,9 +25,4 @@ if($clave!==null){//chiedo se esiste paris
     unset($paisCapital[$clave]);//in array asociativos non posso usare splice
 }
 print_r($paisCapital);
-
-
-
-
-
 ?>
