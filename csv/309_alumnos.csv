@@ -1,0 +1,13 @@
+N;StdntID;First;Last;Group;TeacherID;StdntEmail;ParentName;ParentEmail;Phone
+1;45544;Benito ;Banda;31;1;nombre@mail.com;Banda Benito;;9988877777
+2;44843;Jorge ;Briones;31;1;nombre@mail.com;;;
+3;45375;Isabella E;Castaneda;31;1;nombre@mail.com;Ramirez Roberto;;9988877777
+4;44642;Alysson G;Espinosa;31;1;nombre@mail.com;Maldonado Juan;;9988877777
+5;44071;Victoria V;Gomez;31;1;nombre@mail.com;Cantu Adriana;nombre@mail.com;
+6;9747593;Manuel ;Gutierrez;31;1;nombre@mail.com;Salazar Maria;nombre@mail.com;9988877777
+7;40243;Alma O;Lopez;31;1;nombre@mail.com;;nombre@mail.com;
+8;9799559;Andres A;Olvera;31;1;nombre@mail.com;Ramirez Maria;nombre@mail.com;9988877777
+9;42934;Dora C;Perez;31;1;;;;9988877777
+10;45365;Jesus A;Ramirez;31;1;nombre@mail.com;Ramirez Jesus;;
+11;44457;Delilah M;Ramos;31;1;nombre@mail.com;;;
+12;47150;Jose A;Reyes;31;1;nombre@mail.com;Reyes Jose;nombre@mail.com;
