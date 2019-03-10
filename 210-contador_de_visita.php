@@ -22,5 +22,4 @@ Si no existe crear una con el contador inicializado a cero Si existe, recuperar 
     setcookie('contador', $contador, time()+3600);
     }
 
-
 ?>

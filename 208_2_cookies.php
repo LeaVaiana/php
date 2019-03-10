@@ -17,6 +17,4 @@ $listaPaises = $_COOKIE['paises'];
 $paises = json_decode($listaPaises, true);//necesita de un segundo parametro true para obtener un array asociativo
 print_r($paises);
 
-
-
 ?>

@@ -252,4 +252,4 @@ if(isset($_POST['baja'])){
 		</div>
 	</div>
 </body>
-</html>
+</html> 
