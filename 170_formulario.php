@@ -1,6 +1,6 @@
 
 <?php
-//INIZIALIZIAMO LE VARIBILI che si usano nel documento web: per evitare che appaia l'errore di una variabile non definita (la prima volta che entri in un formulario le variabili nome e edad non sono definite):
+//INIZIALIZIAMO LE VARIABILI che si usano nel documento web: per evitare che appaia l'errore di una variabile non definita (la prima volta che entri in un formulario le variabili nome e edad non sono definite):
     $nombre="";
     $edad="";
 
@@ -23,7 +23,7 @@ if(isset($_GET["enviar"])){//isset serve per chiedere se qualcosa esiste, usiamo
 </head>
 <body>
     <form method="get" action="#">
-        <input type="text" name="nombre" required>
+        <input type="text" name="nombre" required><!--atributo name obligatorio per associare i valori che arrivano al servidor-->
         <input type="number" name="edad">
         <input type="submit" name="enviar">
     <!--aggiungo il campo per la risposta che ci torna php-->
@@ -32,9 +32,6 @@ if(isset($_GET["enviar"])){//isset serve per chiedere se qualcosa esiste, usiamo
         <?php 
             echo "$nombre $edad";
         ?>
-
-
-
     </textarea>
     
 </body>
