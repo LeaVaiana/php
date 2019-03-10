@@ -186,4 +186,4 @@ function validarLibro($t,$i){
 		</div>
 	</div>
 </body>
-</html>
+</html> 
