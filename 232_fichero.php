@@ -30,5 +30,4 @@ readfile('232_fichero.txt');//contiene l'echo;
 fclose($fichero)
 
 
-
 ?>
